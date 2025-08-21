@@ -1,4 +1,4 @@
-# Pavan Kumar | Backend & Full-Stack Developer
+# Prateek Verma| Backend & Full-Stack Developer
 
 > Backend developer specializing in building scalable, high-performance web applications and RESTful APIs with Node.js and the cloud. I have a passion for creating efficient, maintainable backend systems and a keen interest in DevOps practices.
 
