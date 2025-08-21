@@ -20,11 +20,11 @@ A collection of the primary tools and technologies I use in my projects.
 
 ### 💼 Professional Experience
 
-**Backend & DevOps Engineer Intern @ Digital Inclined** `(May 2025 – Aug 2025)`
+**Backend & DevOps Engineer Intern @ Digital Inclined** `(june 2025 – Aug 2025)`
 * Developed a full-stack CRM and ads reporting dashboard using Node.js and GCP, automating a manual reporting process and saving hours of weekly work.
 * [**View Project Showcase ➡️**](https://github.com/pvk1294/internship-showcase-digital-inclined)
 
-**App Developer Intern @ Vadhiyar Seeds** `(Jan 2025 – Apr 2025)`
+**App Developer Intern @ Vadhiyar Seeds** `(june 2025 – Aug 2025)`
 * Built a complete mobile loyalty platform from scratch using React Native and Node.js, including a QR code scanning system and a cloud-based admin panel.
 * [**View Project Showcase ➡️**](https://github.com/pvk1294/internship-showcase-vadhiyar-seeds)
 
