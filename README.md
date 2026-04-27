@@ -1,36 +1,47 @@
-# Prateek Verma| Backend & Full-Stack Developer
+# Prateek Verma
 
-> Backend developer specializing in building scalable, high-performance web applications and RESTful APIs with Node.js and the cloud. I have a passion for creating efficient, maintainable backend systems and a keen interest in DevOps practices.
+Backend engineer building multi-tenant B2B SaaS systems. Currently shipping **TaskFlow** at Digital Inclined.
 
-I am actively seeking **Winter/Spring 2026 internship opportunities** where I can contribute to building robust backend services and full-stack solutions.
-
----
-
-### 🛠️ My Tech Stack
-
-A collection of the primary tools and technologies I use in my projects.
-
-| Backend | Frontend | Databases | Cloud & DevOps |
-| :---: | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> | <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> | <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> | <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> | <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" /> | | | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> |
+Final-year B.Tech at Thapar Institute · graduating June 2026 · **open to backend / full-stack roles starting July 2026** (Delhi NCR or Bangalore, hybrid preferred).
 
 ---
 
-### 💼 Professional Experience
+## Currently shipping
 
-**Backend & DevOps Engineer Intern @ Digital Inclined** `(june 2025 – Aug 2025)`
-* Developed a full-stack CRM and ads reporting dashboard using Node.js and GCP, automating a manual reporting process and saving hours of weekly work.
-* [**View Project Showcase ➡️**](https://github.com/pvk1294/internship-showcase-digital-inclined)
+**TaskFlow** — Multi-tenant B2B SaaS for employee task, project & meeting management with WhatsApp-based reminders. Sole engineer. In pilot with 3 companies.
 
-**App Developer Intern @ Vadhiyar Seeds** `(june 2025 – Aug 2025)`
-* Built a complete mobile loyalty platform from scratch using React Native and Node.js, including a QR code scanning system and a cloud-based admin panel.
-* [**View Project Showcase ➡️**](https://github.com/pvk1294/internship-showcase-vadhiyar-seeds)
+- 82+ REST endpoints across 15 modules over 23 Prisma models
+- BullMQ + Redis for delayed-job WhatsApp reminders (chosen over DB-polling cron for O(1) dispatch, retries, dead-letter)
+- Two-tier RBAC, JWT with refresh-token rotation, TOTP 2FA
+- Realtime chat & notifications via Socket.io, Cloudinary + AWS S3, Google Calendar sync
+- Node 20 · Express 5 · PostgreSQL 15 · Prisma 6 · Redis · Socket.io · Next.js 14
+- Source private (active commercial pilot) — case study: **[TaskFlow →](https://github.com/Pvk1294/taskflow)**
 
----
+## Selected projects
 
-### 📫 Get In Touch
+**[Spendly](https://github.com/Pvk1294/Spendly)** — Privacy-first expense tracker for India. Auto-captures spend by parsing transaction SMS on-device — no raw SMS leaves the phone, no credentials handed to aggregators. Hybrid pipeline: regex parser + a separate Python trainer that fine-tunes a local Mistral-7B model via Ollama on labelled samples. WhatsApp OTP + Firebase Google Sign-In, two-token sessions with real server-side revocation.
+*React Native · TypeScript · Node.js · Prisma · PostgreSQL · Ollama (Mistral-7B)*
 
-* **LinkedIn:** https://www.linkedin.com/in/pvk1294/
-* **Email:** pvk1294@gmail.com
+**[Meta Ads CRM](https://github.com/Pvk1294/internship-showcase-digital-inclined)** — Production CRM backend at a Noida ad agency. 1-click ad-account sync for 100+ business accounts; automated weekly client PDF reporting cut manual effort by ~90%. JWT + bcrypt + WhatsApp OTP + TOTP, deployed on GCP Compute Engine + Cloud SQL behind Nginx.
+*Software Developer Intern · Digital Inclined · Jun – Aug 2025*
+
+**[Distributor Loyalty Platform](https://github.com/Pvk1294/internship-showcase-vadhiyar-seeds)** — QR-based loyalty rewards platform for a seed distributor network. Bulk QR generation (ZIP downloads), single-use scan-to-points, points ledger, audit trails. 60%+ API call reduction via local caching on the React Native client.
+*Full-Stack Developer Intern · Vadhiyar Seeds · Jun – Aug 2025*
+
+## Background
+
+```
+Languages       JavaScript · TypeScript · Python · SQL
+Backend         Node.js · Express · Prisma · BullMQ · Socket.io · REST · JWT
+Databases       PostgreSQL · Redis · MongoDB · Firebase
+Cloud           AWS (EC2) · GCP (Compute Engine, Cloud SQL) · Docker · Nginx
+Frontend        Next.js · React · React Native · Tailwind
+Tooling         Git · Postman · Cloudinary · Ollama
+```
+
+## Contact
+
+- **Email** — pvk1294@gmail.com
+- **LinkedIn** — [linkedin.com/in/pvk1294](https://linkedin.com/in/pvk1294)
+- **Portfolio** — [pvk-portfolio.vercel.app](https://pvk-portfolio.vercel.app)
+- **LeetCode** — [leetcode.com/u/pvk1294](https://leetcode.com/u/pvk1294)
